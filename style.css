@@ -114,3 +114,8 @@ input:hover {
     width: 8vw;
     height: 5vh;
 }
+
+.btn_container {
+	display: table;
+	margin: 0 auto;
+}
