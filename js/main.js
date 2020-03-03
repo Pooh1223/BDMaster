@@ -31,6 +31,16 @@ function play_main_theme(){
 	}
 }
 
+function play_SE(id){
+	if(id >= 48) alert('Error!\n');
+
+	var se = document.createElement('audio');
+	se.src = './res/music/' + SEArray[id] + '.mp3';
+	se.type = 'audio/mpeg';
+	se.autoplay = 'autoplay'
+	document.getElementById('line_2').appendChild(se);
+}
+
 window.addEventListener('keydown',function(key){
 	//console.log(keyArray.indexOf(key.code));
 	var se = document.createElement('audio');

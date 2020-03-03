@@ -97,3 +97,20 @@ input:hover {
     width: 40%;
 	height: 8vh;
 }
+
+.SE {
+	background-color:#003C9D;
+	color:#fff;
+	border-radius:10px;
+	cursor:pointer;
+	width: 8vw;
+	height: 5vh;
+}
+
+.SE:hover {
+	color:#003C9D;
+    background-color:#fff;
+    border:2px #003C9D solid;
+    width: 8vw;
+    height: 5vh;
+}
