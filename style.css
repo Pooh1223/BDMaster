@@ -54,7 +54,7 @@ body {
     margin:0;
 }
 
-input {
+/*input {
 	position: absolute;
 	border:0;
 	background-color:#003C9D;
@@ -69,6 +69,28 @@ input {
 
 input:hover {
     color:#003C9D;
+    background-color:#fff;
+    border:2px #003C9D solid;
+    font-size: xx-large;
+    width: 40%;
+	height: 8vh;
+}*/
+
+#main_theme_controler {
+	position: absolute;
+	border:0;
+	background-color:#003C9D;
+	color:#fff;
+	border-radius:10px;
+	cursor:pointer;
+	font-size: xx-large;
+	bottom: 0;
+	width: 40%;
+	height: 8vh;
+}
+
+#main_theme_controler:hover {
+	color:#003C9D;
     background-color:#fff;
     border:2px #003C9D solid;
     font-size: xx-large;
